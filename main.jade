@@ -1,0 +1,14 @@
+head
+  title Foo
+body
+  .ui.page.grid
+    +foo
+      
+      
+template(name='foo')
+  .centered.row
+    h2.ui.icon.center.aligned.header
+      i.ui.star.icon
+      .content {{foo_count}}
+  .centered.row
+    .ui.button More stars!
